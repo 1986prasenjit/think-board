@@ -1,8 +1,6 @@
-import React from 'react'
-
 const NoteDetailsPage = () => {
   return (
-    <div>NoteDetailsPage</div>
+    <h1>Note Details Page</h1>
   )
 }
 
