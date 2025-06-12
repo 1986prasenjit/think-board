@@ -8,7 +8,7 @@ import toast from 'react-hot-toast'
 function App() {
 
   return (
-    <div data-theme="forest">
+    <div data-theme="coffee">
       <Routes>
         <Route
           path='/'

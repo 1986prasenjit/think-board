@@ -9,13 +9,12 @@ const getAllNotes = async (req, res) => {
                 .status(404)
                 .json({ message: "Sorry No Notes Found" })
         }
-
         return res
             .status(200)
             .json(
                 {
                     message: "All notes fetched successfully",
-                    note: notes
+                    notes
                 }
             )
     } catch (error) {
